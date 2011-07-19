@@ -1,0 +1,3 @@
+Méthode de Monte Carlo appliquée aux options asiatiques.
+L'objectif est de coder de différentes manières l'algorithme afin de trouver la solution la plus efficace.
+Cela permettra également de comparer les perfs et le code avec d'autres langages. Les autres implémentation dans d'autres langages ne sont pas dans ce repo git.
