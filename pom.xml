@@ -64,6 +64,7 @@
                     <executable>java</executable>
                     <arguments>
                         <argument>-classpath</argument>
+                        <classpath/>
                         <argument>com.infine.montecarlo.App</argument>
                     </arguments>
                 </configuration>
