@@ -4,7 +4,7 @@
 
     <groupId>com.infine</groupId>
     <artifactId>monte-carlo-asian</artifactId>
-    <version>0.1</version>
+    <version>0.2-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>monte-carlo-asian</name>
