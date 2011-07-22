@@ -8,7 +8,8 @@ import java.util.List;
  */
 public class App {
     
-    private static final int NB_OPTIONS = 2000;
+    private static final int NB_OPTIONS = 4000;
+    private static final int NB_ITERATIONS = 20000;
     
 
     public static void main(String[] args) {
@@ -16,7 +17,7 @@ public class App {
 
         System.out.println("Starting princing");
         long startTime = System.nanoTime();
-        AsianPricer.Price(options, 0.2, 200, 0.07, 500);
+        AsianPricer.Price(options, 0.2, 200, 0.07, NB_ITERATIONS);
         long time = System.nanoTime() - startTime;
 
 //        for (AsianOption opt : options) {
